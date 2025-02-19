@@ -1,17 +1,18 @@
 ﻿using Xunit;
+using CalculadoraNamespace;
 
 namespace Calculadora.Tests
 {
     public class UnitTest1
     {
+        // Crea las variables necesarias para la prueba
+        private CalculadoraNamespace.Calculadora calc = new CalculadoraNamespace.Calculadora();
+        private int a = 5;
+        private int b = 3;
+
         [Fact]
         public void TestearSuma()
         {
-            // Crea las variables necesarias para la prueba
-            var calc = new Calculadora();
-            int a = 5;
-            int b = 3;
-
             // Ejecuta el método a probar
             int resultado = calc.Sumar(a, b);
 
@@ -22,11 +23,6 @@ namespace Calculadora.Tests
         [Fact]
         public void TestearResta()
         {
-            // Crea las variables necesarias para la prueba
-            var calc = new Calculadora();
-            int a = 5;
-            int b = 3;
-
             // Ejecuta el método a probar
             int resultado = calc.Restar(a, b);
 
@@ -37,11 +33,6 @@ namespace Calculadora.Tests
         [Fact]
         public void TestearMultiplicacion()
         {   
-            // Crea las variables necesarias para la prueba
-            var calc = new Calculadora();
-            int a = 5;
-            int b = 3;
-
             // Ejecuta el método a probar
             int resultado = calc.Multiplicar(a, b);
 
@@ -53,7 +44,7 @@ namespace Calculadora.Tests
         public void TestearDivision()
         {
             // Crea las variables necesarias para la prueba
-            var calc = new Calculadora();
+            var calc = new CalculadoraNamespace.Calculadora();
             int a = 6;
             int b = 3;
 
@@ -68,7 +59,7 @@ namespace Calculadora.Tests
         public void TestearDivisionPorCero()
         {
             // Crea las variables necesarias para la prueba
-            var calc = new Calculadora();
+            var calc = new CalculadoraNamespace.Calculadora();
             int a = 6;
             int b = 0;
 
