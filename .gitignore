@@ -1,0 +1,43 @@
+# Archivos de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+TestResults/
+*.cache
+*.log
+*.pdb
+*.ilk
+
+# Configuración de dependencias
+project.lock.json
+global.json
+nuget.config
+packages/
+*.nupkg
+*.snupkg
+
+# Configuración de IDEs
+*.csproj.user
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Archivos de depuración y configuración
+launchSettings.json
+
+# Archivos de Resharper / Rider
+.idea/
+*.sln.iml
+
+# Cobertura de código y reportes de pruebas
+coverage/
+coverage.* 
+*.coverage
+*.testlog
+*.trx
