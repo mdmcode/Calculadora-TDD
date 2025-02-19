@@ -1,4 +1,6 @@
-﻿namespace Calculadora
+
+﻿namespace CalculadoraNamespace
+
 {
 
     public class Calculadora
