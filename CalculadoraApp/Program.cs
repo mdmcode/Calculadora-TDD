@@ -12,7 +12,7 @@ class Program
         int suma = calc.Sumar(5, 3);
         int resta = calc.Restar(10, 4);
         int multiplicacion = calc.Multiplicar(6, 2);
-        double division = calc.Dividir(8, 2);
+        int division = calc.Dividir(8, 2);
 
         // Mostrar resultados en la consola
         Console.WriteLine($"Suma: {suma}");
